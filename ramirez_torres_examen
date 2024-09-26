@@ -1,0 +1,18 @@
+print(" ")#Espacio entre lineas
+print("-INSTRUCCIONES-")# Imprime las instrucciones del codigo 
+print("Hallar el perímetro y el área de un rectángulo ingresando la baseb y la altura h. ")
+print(" ")#Espacio entre lineas
+
+# Capturar la base y la altura del rectángulo
+base = float(input("Ingresa la base del rectángulo: "))
+altura = float(input("Ingresa la altura del rectángulo: "))
+
+# Calcular el perímetro
+perimetro = 2 * (base + altura)
+
+# Calcular el área
+area = base * altura
+
+# Desplegar los resultados
+print(f"El perímetro del rectángulo es: {perimetro}")#Nos da el resultado de 'altura'
+print(f"El área del rectángulo es: {area}")#Nos da el resultado de 'area'
